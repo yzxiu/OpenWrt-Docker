@@ -21,12 +21,12 @@ DockerHub: <https://hub.docker.com/r/zzsrv/openwrt>
 
 |  支持设备/平台  |        DockerHub        |                  阿里云镜像仓库 (杭州)                  |
 | :-------------: | :---------------------: | :-----------------------------------------------------: |
-|  x86_64/amd64   | zzsrv/openwrt:latest | registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:latest |
-|  x86_64/amd64   | zzsrv/openwrt:x86_64 | registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:x86_64 |
-|  x86_64/amd64   | zzsrv/openwrt:amd64 | registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:amd64 |
-|  <del>armv8/aarch64</del>   | <del>zzsrv/openwrt:arm</del> | <del>registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:arm64</del> |
-|  <del>armv8/aarch64</del>   | <del>zzsrv/openwrt:armv8</del> | <del>registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:armv8</del> |
-|  <del>armv8/aarch64</del>   | <del>zzsrv/openwrt:aarch64</del> | <del>registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:aarch64</del> |
+|  x86_64/amd64   | zzsrv/openwrt:latest | registry.cn-guangzhou.aliyuncs.com/zzsrv/openwrt:latest |
+|  x86_64/amd64   | zzsrv/openwrt:x86_64 | registry.cn-guangzhou.aliyuncs.com/zzsrv/openwrt:x86_64 |
+|  x86_64/amd64   | zzsrv/openwrt:amd64 | registry.cn-guangzhou.aliyuncs.com/zzsrv/openwrt:amd64 |
+|  <del>armv8/aarch64</del>   | <del>zzsrv/openwrt:arm</del> | <del>registry.cn-guangzhou.aliyuncs.com/zzsrv/openwrt:arm64</del> |
+|  <del>armv8/aarch64</del>   | <del>zzsrv/openwrt:armv8</del> | <del>registry.cn-guangzhou.aliyuncs.com/zzsrv/openwrt:armv8</del> |
+|  <del>armv8/aarch64</del>   | <del>zzsrv/openwrt:aarch64</del> | <del>registry.cn-guangzhou.aliyuncs.com/zzsrv/openwrt:aarch64</del> |
 
 ## 镜像使用方法
 
@@ -44,7 +44,7 @@ docker network ls
 ```
 4、拉取镜像，可以通过阿里云镜像提升镜像拉取速度
 ```
-docker pull registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:latest
+docker pull registry.cn-guangzhou.aliyuncs.com/zzsrv/openwrt:latest
 ```
 5、创建容器并后台运行
 ```
